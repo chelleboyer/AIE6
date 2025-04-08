@@ -43,17 +43,17 @@ Please evaluate your system on the following questions:
 
 2. Read the following paragraph and provide a concise summary of the key points.
 
-# 1 Read the following paragraph and provide a concise summary of the key points...Farming is a crucial aspect of agriculture that involves cultivating crops and rearing animals for food, fiber, and other products. It encompasses various practices, including planting, tending, and harvesting crops, as well as managing livestock.
+a. Read the following paragraph and provide a concise summary of the key points...Farming is a crucial aspect of agriculture that involves cultivating crops and rearing animals for food, fiber, and other products. It encompasses various practices, including planting, tending, and harvesting crops, as well as managing livestock.
 
-# 2 Read the following paragraph and provide a concise summary of the key points.
+b. Read the following paragraph and provide a concise summary of the key points.
 Creative writing is any writing that goes outside the bounds of normal professional, journalistic, academic, or technical forms of literature, typically identified by an emphasis on craft and technique, such as narrative structure, character development, literary tropes, genre, and poetics. Both fictional and non-fictional works fall into this category, including such forms as novels, biographies, short stories, poems, and even some forms of journalism. In academic settings, creative writing is typically separated into fiction and poetry classes, with a focus on writing in an original style, as opposed to imitating pre-existing genres such as crime or horror. Writing for the screen and stage—screenwriting and playwriting—are often taught separately, but fit under the creative writing category as well.
 
     - Aspect Tested: Understanding and condensing content.
-    - Vibe Check: GPT-3.5 Turbo - this response was basically rewording the original paragraph.
-    - Vibe Check: GPT-4 - same as 3.5
-    - Vibe Check 2: GPT-3.5 Turbo - this response was shorted, i guess I expected concise to be bullet points or something.
-    - Vibe Check 2: GPT-4 - same as 3.5
-    - Vibe Check 3: GPT-4 - specifically asking for bullet points directly gave me bullet points, yay
+    - Vibe Check a: GPT-3.5 Turbo - this response was basically rewording the original paragraph.
+    - Vibe Check a: GPT-4 - same as 3.5
+    - Vibe Check b: GPT-3.5 Turbo - this response was shorted, i guess I expected concise to be bullet points or something.
+    - Vibe Check b: GPT-4 - same as 3.5
+    - Vibe Check b: GPT-4 - specifically asking for bullet points directly gave me bullet points, yay
      
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
     - Aspect Tested: Creative ability.
