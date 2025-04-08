@@ -37,23 +37,45 @@ Each assignment will have a few of the following categories of exercises:
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
-    - Aspect Tested:
-2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: Whether the system can break down complex subject matter, using prompt principle #5
+    - Vibe Check: GPT-3.5 Turbo - the response was simple and tried to align with a human mental model of objects.
+    - Vibe Check: GPT-4 - this response was not quite as simple, it went beyond the basic object/class adding explanations for more advanced terms, as well as bullet point formatting for readability.
+
+2. Read the following paragraph and provide a concise summary of the key points...Farming is a crucial aspect of agriculture that involves cultivating crops and rearing animals for food, fiber, and other products. It encompasses various practices, including planting, tending, and harvesting crops, as well as managing livestock.
+Read the following paragraph and provide a concise summary of the key points.
+Creative writing is any writing that goes outside the bounds of normal professional, journalistic, academic, or technical forms of literature, typically identified by an emphasis on craft and technique, such as narrative structure, character development, literary tropes, genre, and poetics. Both fictional and non-fictional works fall into this category, including such forms as novels, biographies, short stories, poems, and even some forms of journalism. In academic settings, creative writing is typically separated into fiction and poetry classes, with a focus on writing in an original style, as opposed to imitating pre-existing genres such as crime or horror. Writing for the screen and stage—screenwriting and playwriting—are often taught separately, but fit under the creative writing category as well.
+
+    - Aspect Tested: Understanding and condensing content.
+    - Vibe Check: GPT-3.5 Turbo - this response was basically rewording the original paragraph.
+    - Vibe Check: GPT-4 - same as 3.5
+    - Vibe Check 2: GPT-3.5 Turbo - this response was shorted, i guess I expected concise to be bullet points or something.
+    - Vibe Check 2: GPT-4 - same as 3.5
+    - Vibe Check 3: GPT-4 - specifically asking for bullet points directly gave me bullet points, yay
+     
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: Creative ability.
+    - Vibe Check: GPT-3.5 Turbo - the 3.5 story was somewhat creative, about 2 robots, it reused some text from the prompt
+    - Vibe Check: GPT-4 - and the 4 story was a robot and a kitten and called out the importance of understanding and accepting differences, it still reused some text from the prompt
+
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: Mathematical reasoning.
+    - Vibe Check: GPT-3.5 Turbo - it did the math and showed the work
+    - Vibe Check: GPT-4 - it did the math and showed the work
+
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+I’m a professional chaos wrangler—part calendar ninja, part email translator, and full-time mind reader. I keep things running, fix problems before they exist, and make last-minute miracles look planned. Basically, I run the show... without the cape (it’d just get caught in my chair).
+    - Aspect Tested: Understanding content and altering language style.
+    - Vibe Check: GPT-3.5 Turbo - I picked a bad paragraph, I should have used wiki instead of AI, ruh roh
+    - Vibe Check: GPT-4 - same, will do better next time
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
-##### 🚧 Advanced Build:
+##### 🚧 Advanced Build: 
 
 Please make adjustments to your application that you believe will improve the vibe check done above, push the changes to your HF Space and redo the above vibe check.
 
 > NOTE: You may reach for improving the model, changing the prompt, or any other method.
+I had already start making changes to the app before I knew that would be our homework :) so I left the model choice option in place as part of the improvement.  In addition, I changed the prompts slightly.
 
 ### A Note on Vibe Checking
 
@@ -64,3 +86,8 @@ In essence, it's a first look to ensure your system isn't experiencing catastrop
 ##### 🧑‍🤝‍🧑❓ Discussion Question #1:
 
 What are some limitations of vibe checking as an evaluation tool?
+Your vibe might not mesh with someone else's :) so there's that.
+
+To me it feels similar to the quick checks I do before pushing code, its good to make sure everything compiles and my connection strings are good, but I can't possible cover every use case,  We need some automated testing for evaluating beyond this intial look.
+
+I feel like this would be time consuming at any scale
