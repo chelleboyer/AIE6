@@ -74,8 +74,10 @@ This "vibe check" now serves as a baseline, of sorts, to help understand what ho
 
 Please make adjustments to your application that you believe will improve the vibe check done above, push the changes to your HF Space and redo the above vibe check.
 
-> NOTE: You may reach for improving the model, changing the prompt, or any other method.
 I had already start making changes to the app before I knew that would be our homework :) so I left the model choice option in place as part of the improvement.  In addition, I changed the prompts slightly.
+
+> NOTE: You may reach for improving the model, changing the prompt, or any other method.
+
 
 ### A Note on Vibe Checking
 
