@@ -42,6 +42,7 @@ Please evaluate your system on the following questions:
     - Vibe Check: GPT-4 - this response was not quite as simple, it went beyond the basic object/class adding explanations for more advanced terms, as well as bullet point formatting for readability.
 
 2. Read the following paragraph and provide a concise summary of the key points...Farming is a crucial aspect of agriculture that involves cultivating crops and rearing animals for food, fiber, and other products. It encompasses various practices, including planting, tending, and harvesting crops, as well as managing livestock.
+
 Read the following paragraph and provide a concise summary of the key points.
 Creative writing is any writing that goes outside the bounds of normal professional, journalistic, academic, or technical forms of literature, typically identified by an emphasis on craft and technique, such as narrative structure, character development, literary tropes, genre, and poetics. Both fictional and non-fictional works fall into this category, including such forms as novels, biographies, short stories, poems, and even some forms of journalism. In academic settings, creative writing is typically separated into fiction and poetry classes, with a focus on writing in an original style, as opposed to imitating pre-existing genres such as crime or horror. Writing for the screen and stage—screenwriting and playwriting—are often taught separately, but fit under the creative writing category as well.
 
