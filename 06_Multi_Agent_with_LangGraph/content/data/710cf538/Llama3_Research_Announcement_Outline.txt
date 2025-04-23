@@ -1,0 +1,7 @@
+1. Introduction of the research announcement
+2. Key findings of the paper
+3. Implications for Large Language Models (LLMs)
+4. Technical details on the QLoRA fine-tuning method
+5. Efficiency of the training process
+6. Commitment to public resource sharing
+7. Call to action for discussion
