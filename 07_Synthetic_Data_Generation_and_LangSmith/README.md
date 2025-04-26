@@ -76,3 +76,48 @@ Shout out to @AIMakerspace !
 
 Feel free to reach out if you're curious or would like to collaborate on similar projects! 🤝🔥
 ```
+
+
+
+#### ❓ Question #1:
+
+What are the three types of query synthesizers doing? Describe each one in simple terms.
+
+I found a reference here: https://docs.ragas.io/en/stable/concepts/test_data_generation/rag/
+
+A single-hop query is a question that requires retrieving information from a single document or source to provide a relevant answer. It involves only one step to arrive at the answer.  ** In this example 50% of the queries are single-hop.
+
+A multi-hop query involves multiple steps of reasoning, requiring information from two or more sources. The system must retrieve information from various documents and connect the dots to generate an accurate answer.
+
+- the abstract query requires the retrieval of multiple pieces of information over time and across different sources to form a broad, interpretive response.  ** In this example 25% of the queries are multi-hop abstract.
+
+- the specific query focuses on clear, fact-based retrieval.  ** In this example 25% of the queries are multi-hop specific.
+
+#### 🏗️ Activity #2:
+
+Highlight what each evaluator is evaluating.
+
+- `qa_evaluator`: question answer evaluator evaluates the accuracy of the model answers compared to the reference answers, did it correctly anser the question
+- `labeled_helpfulness_evaluator`: evaluates the response by using the llm response and the reference answer to determine helpfulness, how helpful the response may be to the user
+	* compare the strings for answers and determine if the submission was helpful
+	* prediction output = is what chain gives us
+	* reference is our answer = reference answer created by ragas
+	* input the question
+- `dope_or_nope_evaluator`: evaluates the response to determine how dope, lit or cool the llm response is
+
+
+#### ❓Question #2:
+
+Why would modifying our chunk size modify the performance of our application?
+
+smaller chunks would perform faster and prob use less tokens, but maybe lose some meaning
+
+semantic chunking is much more accurate but potentially less performant than smaller chunking strategies like word or sentence
+
+
+#### ❓Question #3:
+
+Why would modifying our embedding model modify the performance of our application?
+
+each embedding model has it's own performance characteristics, quality and speed can vary based on the model.  some are better suited to specific tasks, ie sentiment.
+
