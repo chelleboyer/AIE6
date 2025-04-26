@@ -121,3 +121,8 @@ Why would modifying our embedding model modify the performance of our applicatio
 
 each embedding model has it's own performance characteristics, quality and speed can vary based on the model.  some are better suited to specific tasks, ie sentiment.
 
+#### 🏗️ Activity #3:
+
+Provide a screenshot of the difference between the two chains, and explain why you believe certain metrics changed in certain ways.
+
+Screenshot 2025-04-26 155939.png
